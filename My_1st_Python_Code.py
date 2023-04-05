@@ -9,7 +9,7 @@ marks['hindi'] = int(input("Enter Hindi Marks Obtained : "))
 full_marks = int(input("Total Marks Per Subject : "))
 print(f"Total subject : {len(marks)}")
 percentage = ((marks["english"] + marks["maths"] + marks["social"] + marks["science"] + marks["hindi"])/(len(marks)*full_marks)*100)
-print(f"Received Marks : {percentage}%")
+print(f"Received Marks : {percentage}%") 
 # percentage > 90
 # print(name, "has obtained Grade A+")
 # percentage>80 and <=90
