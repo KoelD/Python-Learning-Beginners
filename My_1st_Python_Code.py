@@ -20,4 +20,3 @@ Per>90
   print(Name, "has obtained Grade E")
  Per<=40
   print(Name, "has obtained Grade F")
- 
