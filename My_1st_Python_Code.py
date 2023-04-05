@@ -7,6 +7,8 @@ Sci=int(input("Enter Science Marks"))
 Hin=int(input("Enter Hindi Marks"))
 Per=(Eng+Mat+Soc+Sci+Hin)/5
 Per>90
+
+kakaka
   print(Name, "has obtained Grade A+")
   Per>80 and <=90
   print(Name, "has obtained Grade A")
