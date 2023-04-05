@@ -1,4 +1,3 @@
-Dur hat
 Name=int(input("Enter your Name"))
 Age=int(input("Enter your Age"))
 Eng=int(input("Enter English Marks"))
