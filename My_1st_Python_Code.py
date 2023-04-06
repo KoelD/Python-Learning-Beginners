@@ -51,3 +51,4 @@ for gr_dic in grade_range_percent:
     # print(marks_range)
     # if percent in marks_range:
         # print(f"Grade scored : {gr_dic['grade']}")
+        
