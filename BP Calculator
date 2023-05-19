@@ -1,0 +1,20 @@
+systolic = int(input("Enter systolic measurement:"))
+diastolic = int(input("Enter diastolic measurement:"))
+ 
+if systolic < 90 or diastolic < 60:
+    print("Low blood pressure")
+    print("Recommended Medications:", "Cilnidipine,Mephentermine,Phenylephrine")
+elif 90 <= systolic < 120 and 60 <= diastolic < 80:
+    print("Normal blood pressure")
+    print["No Medications Needed"]
+elif 120 <= systolic < 130 and 80 <= diastolic < 85:
+    print("Elevated blood pressure")
+    print("Recommended Medications:", "Amlodipine, Felodipine, Nifedipine")
+elif 130 <= systolic < 140 or 85 <= diastolic < 90:
+    print("Stage 1 hypertension")
+    print("Recommended Medications:", "Thiazide diuretics, ACE inhibitors, ARBs")
+elif 140 <= systolic or 90 <= diastolic:
+    print("Stage 2 hypertension")
+    print("Recommended Medications:", "Dihydropyridine, ACE inhibitors, ARBs")
+else:
+    print("Invalid blood pressure values")
